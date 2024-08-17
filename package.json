@@ -1,0 +1,14 @@
+{
+  "name": "test-runner-benchmarks",
+  "version": "1.0.0",
+  "description": "Some simple benchmarks for node:test",
+  "license": "MIT",
+  "author": "Colin J. Ihrig <cjihrig@gmail.com> (http://www.cjihrig.com/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mocha": "^10.7.3"
+  }
+}
