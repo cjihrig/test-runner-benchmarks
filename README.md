@@ -3,31 +3,31 @@
 - Run `npm i`.
 - Generate test files and execute them `node run-tests.js`.
 
-Results run on an M1 with Node 22.9.0 and mocha 10.7.3.
+Results run on an M1 with Node 23.3.0 and mocha 11.0.1.
 
 ```
-73457750,1-file-10-tests,node --test
-41804917,1-file-10-tests,node --test --experimental-test-isolation=none
-102216375,1-file-10-tests,mocha
-153965209,1-file-10-tests,mocha --parallel
+79778584,1-file-10-tests,node --test
+43107167,1-file-10-tests,node --test --experimental-test-isolation=none
+94638750,1-file-10-tests,mocha
+168972416,1-file-10-tests,mocha --parallel
 
-92987625,1-file-100-tests,node --test
-52665833,1-file-100-tests,node --test --experimental-test-isolation=none
-97017417,1-file-100-tests,mocha
-167094542,1-file-100-tests,mocha --parallel
+113103041,1-file-100-tests,node --test
+49243125,1-file-100-tests,node --test --experimental-test-isolation=none
+102382625,1-file-100-tests,mocha
+177219208,1-file-100-tests,mocha --parallel
 
-194795208,1-file-1_000-tests,node --test
-103170042,1-file-1_000-tests,node --test --experimental-test-isolation=none
-150775125,1-file-1_000-tests,mocha
-266302625,1-file-1_000-tests,mocha --parallel
+185517292,1-file-1_000-tests,node --test
+100436958,1-file-1_000-tests,node --test --experimental-test-isolation=none
+157519750,1-file-1_000-tests,mocha
+269989250,1-file-1_000-tests,mocha --parallel
 
-191338708,10-files-100-tests-each,node --test
-109412166,10-files-100-tests-each,node --test --experimental-test-isolation=none
-165382709,10-files-100-tests-each,mocha
-246135000,10-files-100-tests-each,mocha --parallel
+177637500,10-files-100-tests-each,node --test
+100242125,10-files-100-tests-each,node --test --experimental-test-isolation=none
+160925000,10-files-100-tests-each,mocha
+251466750,10-files-100-tests-each,mocha --parallel
 
-572871917,10-files-1_000-tests-each,node --test
-555053166,10-files-1_000-tests-each,node --test --experimental-test-isolation=none
-602424584,10-files-1_000-tests-each,mocha
-630197250,10-files-1_000-tests-each,mocha --parallel
+483206333,10-files-1_000-tests-each,node --test
+485899292,10-files-1_000-tests-each,node --test --experimental-test-isolation=none
+566778667,10-files-1_000-tests-each,mocha
+654491541,10-files-1_000-tests-each,mocha --parallel
 ```
